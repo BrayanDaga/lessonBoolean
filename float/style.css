@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body{
+    background-color: #cecece; 
+  }
+  
+  header , footer{
+    text-align: center;
+    height: 10vh;
+    line-height: 10vh;
+    background-color: yellow;
+  }
+
+  .container{
+    width: 1000px;
+    border: 1px solid black;
+    margin: auto;
+    background-color: white;
+    margin-top: 50px;
+  }
+
+  main::after{
+    content: '';
+    clear: both;
+    display: table;
+  }
+  
+  .content{
+    display: float;
+    float: left;
+    width: 33.3333%;
+  }
+  
+  .left{ background-color: red; }
+  
+  .center{ background-color: blue }
+  
+  .right{ background-color: green }
+  

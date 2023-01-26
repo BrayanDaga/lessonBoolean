@@ -1,0 +1,32 @@
+:root {
+    --cclr-primary: rgb(231, 219, 44);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(224, 224, 224);
+    text-align: center;
+}
+
+header img {
+    margin: 0 auto;
+}
+
+hr {
+    border-color: var(--cclr-primary);
+}
+
+main {
+    padding: 0 10px;
+}
+
+main h2 {
+    color: var(--cclr-primary);
+}
+
+main dt {
+    font-style: italic;
+}

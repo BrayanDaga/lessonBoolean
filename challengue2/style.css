@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    margin: auto;
+    width: 960px;
+}
+.row{
+    margin: 10px;
+}
+.card{
+    height: 378px;
+    width: 306px;
+    background-color: gainsboro;
+    position: relative;
+    display: inline-block;
+}
+
+.card > img{ width: 100%; }
+
+.row:first-child .card:first-child::before{
+    content: "\2665";
+    color: red;
+    position: absolute;
+    bottom: 2%;
+    right: 50%;
+    font-size: 40px;
+}
+
+.card .desc{
+    z-index: 99;
+    top: 0;
+    right: 0;
+    position: absolute;
+}
+
+.desc.rosso{ background-color: red; }
+.desc.verde{ background-color: green; }
