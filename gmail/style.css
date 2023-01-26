@@ -1,0 +1,81 @@
+html{
+    color: white;
+}
+
+body {
+    background-image: url(https://ssl.gstatic.com/ui/v1/icons/mail/themes/desk/bg2_1920x1200.jpg); 
+}
+
+.container{
+    width: 1000px;
+    margin: auto;
+}
+
+header .logo{
+    width: 90px;
+    padding: 0;
+}
+
+header .logo-text{
+    display: inline-block;
+    font-size: 25px;
+}
+
+header h2 >span{
+    background-color: orange;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.email{
+    border: 1px solid black;
+}
+
+.email.read{
+    background-color: white;
+}
+
+.email.unread{
+    background-color: lightgray;
+}
+
+.email .row-left, .row-right{
+    display: inline-block;
+}
+
+.email .row-left{
+    width: 30%;
+}
+
+.email .row-right{
+    width: 60%;
+}
+
+.email .subject{
+    color: black;
+}
+
+.email .body{
+    color: gray;
+}
+.email .body::after{
+    content: '...';
+}
+
+.star{
+    color: orange;
+}
+.star:after{
+    content: "\2605";
+}
+
+footer{
+    text-align: center;
+}
+
+footer > span:first-child{
+    font-size: 30px;
+}
+footer > span:last-child{
+    font-style: italic;
+}

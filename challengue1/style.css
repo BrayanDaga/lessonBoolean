@@ -1,0 +1,93 @@
+:root {
+    --clr-Primary: rgb(0, 221, 0);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    width: 850px;
+    margin: 30px auto 30px auto;
+    background-color: rgba(0, 0, 0, 0.48);
+    border-radius: 20px;
+    padding: 60px;
+}
+
+header {
+    text-align: center;
+}
+
+header .logo {
+    width: 180px;
+}
+
+header>h1 {
+    color: var(--clr-Primary);
+}
+
+header>div {
+    background-color: var(--clr-Primary);
+    height: 36px;
+}
+
+header button {
+    margin-top: 8.2px;
+    padding: 0 5px;
+}
+
+/* Main */
+
+main {
+    color: white;
+}
+
+main>section {
+    padding: 15px;
+}
+
+main h2,
+main p {
+    padding: 0.5px;
+}
+
+main section h2:before {
+    content: "\25A0";
+}
+
+.bar {
+    border-radius: 5px;
+    height: 20px;
+}
+
+.bar-red {
+    background-color: red;
+}
+
+.bar-orange {
+    background-color: goldenrod;
+}
+
+.bar-green {
+    background-color: green;
+}
+
+.bar-15 {
+    width: 150px;
+}
+
+.bar-35 {
+    width: 300px;
+}
+
+.bar-55 {
+    width: 450px;
+}
